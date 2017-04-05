@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\HTML01\\node\\node\\node.exe',
+1 verbose cli   'D:\\HTML01\\node\\node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle myprojet@0.0.0~prestart: myprojet@0.0.0
+6 silly lifecycle myprojet@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle myprojet@0.0.0~start: myprojet@0.0.0
+8 verbose lifecycle myprojet@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle myprojet@0.0.0~start: PATH: D:\HTML01\node\node\node_modules\npm\bin\node-gyp-bin;F:\MyProjet\node_modules\.bin;C:\Users\Administrator\bin;D:\HTML01\angular\Git\mingw64\bin;D:\HTML01\angular\Git\usr\local\bin;D:\HTML01\angular\Git\usr\bin;D:\HTML01\angular\Git\usr\bin;D:\HTML01\angular\Git\mingw64\bin;D:\HTML01\angular\Git\usr\bin;C:\Users\Administrator\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\wamp\bin\mysql\mysql5.6.17\bin;D:\HTML01\angular\Git\cmd;D:\HTML01\angular\Git\mingw64\bin;D:\HTML01\angular\Git\usr\bin;D:\HTML01\node\node;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\HTML01\angular\Git\usr\bin\vendor_perl;D:\HTML01\angular\Git\usr\bin\core_perl
+10 verbose lifecycle myprojet@0.0.0~start: CWD: F:\MyProjet
+11 silly lifecycle myprojet@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1028:11)
+12 verbose stack     at process.kill (internal/process.js:173:13)
+12 verbose stack     at process.listener (D:\HTML01\node\node\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:186:7)
+12 verbose stack     at processEmit (D:\HTML01\node\node\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:200:44)
+13 verbose cwd F:\MyProjet
+14 error Windows_NT 6.1.7601
+15 error argv "D:\\HTML01\\node\\node\\node.exe" "D:\\HTML01\\node\\node\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v7.6.0
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]

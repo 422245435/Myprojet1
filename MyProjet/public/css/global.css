@@ -1,0 +1,20 @@
+body{
+    line-height: 20px;
+    font-size: 12px;
+    font-family: 'Microsoft Yahei', sans-serif;
+    font-weight: 400;
+    color: #505050;
+}
+img{
+    border: 0;
+}
+img{
+    display: block;
+    height: auto;
+    /*width: 100%;*/
+}
+button,input{
+    line-height: normal;
+    border: none;
+    outline: none;
+}

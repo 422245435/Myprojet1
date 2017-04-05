@@ -1,0 +1,322 @@
+@media (min-width: 992px) {
+  .wz_zt div.wz_xt_left,
+  .wz_zt div.wz_xt_right {
+    width: 100%;
+  }
+  .wz_zt div.wz_sx {
+    display: none;
+  }
+}
+body {
+  line-height: 20px;
+  font-size: 12px;
+  font-family: 'Microsoft Yahei', sans-serif;
+}
+.SuperZhe-top {
+  margin-top: 120px;
+  height: 125px;
+  background-image: url('../images/images-top.jpg');
+  background-size: cover;
+}
+.SuperZhe-top span {
+  padding-bottom: 5px;
+  width: 225px;
+  font-size: 40px;
+  font-weight: 400;
+  height: 100px;
+  color: #ffffff;
+  line-height: 120px;
+  border-bottom: 2px solid #c5d1d5;
+}
+@media screen and (max-width: 450px) {
+  .SuperZhe-nev {
+    height: 50px;
+    background-color: #f5f5f5;
+    margin-bottom: 25px;
+  }
+  .SuperZhe-nev .SuperZhe-index {
+    position: relative;
+  }
+  .SuperZhe-nev li {
+    float: left;
+  }
+  .SuperZhe-nev li img {
+    height: 50px;
+  }
+  .SuperZhe-nev li a {
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    padding: 0 10px;
+    color: #0C80D1;
+    text-align: center;
+    line-height: 50px;
+  }
+  .SuperZhe-nev li a:hover {
+    text-decoration: none;
+  }
+  .SuperZhe-nev li i {
+    position: absolute;
+    top: 15px;
+    left: 0;
+  }
+  .SuperZhe-nev li .fa-map-marker {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #0C80D1;
+  }
+}
+@media screen and (min-width: 451px) {
+  .SuperZhe-nev {
+    height: 100px;
+    padding: 1px 100px;
+    background-color: #f5f5f5;
+    border: 1px solid #f9f9f9;
+    margin-bottom: 25px;
+  }
+  .SuperZhe-nev .SuperZhe-index {
+    position: relative;
+  }
+  .SuperZhe-nev li {
+    float: left;
+  }
+  .SuperZhe-nev li a {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 0 20px;
+    color: #0C80D1;
+    text-align: center;
+    line-height: 100px;
+    background-size: cover;
+  }
+  .SuperZhe-nev li a:hover {
+    text-decoration: none;
+  }
+  .SuperZhe-nev li i {
+    position: absolute;
+    top: 35px;
+    left: 0;
+  }
+  .SuperZhe-nev li .fa-map-marker {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #0C80D1;
+  }
+}
+.wz_zt .wz_xt {
+  height: 1567px;
+  padding: 70px 0 50px;
+  background: #fff;
+}
+.wz_zt .wz_xt p.wz_kt {
+  text-align: center;
+  padding-bottom: 30px;
+  line-height: 25px;
+  color: #9aa7af;
+  font-size: 13px;
+}
+.wz_zt .wz_xt .wz_sx {
+  background: none repeat scroll 0 0 #d7dcdf;
+  display: block;
+  height: 1302px;
+  left: 49.2%;
+  position: absolute;
+  width: 10px;
+}
+.wz_zt .wz_xt .tupian {
+  border: 13px solid #ecf0f2;
+  border-radius: 50%;
+  background: #f6f6f6;
+  height: 150px;
+  line-height: 170px;
+  text-align: center;
+  width: 150px;
+  position: relative;
+}
+.wz_zt .wz_xt .tupian i {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+.wz_zt .wz_xt .tupian:after {
+  content: "";
+  border-bottom: 10px solid rgba(0, 0, 0, 0);
+  border-top: 10px solid rgba(0, 0, 0, 0);
+}
+.wz_zt .wz_xt .tupian:before {
+  background: none;
+  border: 4px solid #3d9ed7;
+  border-radius: 50%;
+  content: "";
+  height: 17px;
+}
+.wz_zt .wz_xt .text {
+  padding-top: 35px;
+  padding-right: 150px;
+}
+.wz_zt .wz_xt .text h4 {
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #272727;
+}
+.wz_zt .wz_xt .text p {
+  font-size: 13px;
+  line-height: 25px;
+  color: #9aa7af;
+  font-weight: 400;
+}
+.wz_zt .wz_xt .dw:hover .tupian:before {
+  background: black;
+}
+.wz_zt .wz_xt .dw:hover .tupian {
+  border-color: #3597D3;
+}
+.wz_zt .wz_xt .wz_xt_left {
+  position: relative;
+  padding-right: 23px;
+  padding-left: 15px;
+  width: 50%;
+}
+.wz_zt .wz_xt .wz_xt_left .one {
+  text-align: right;
+  position: relative;
+  margin-top: 205px;
+  clear: both;
+  padding-right: 10px;
+  width: 100%;
+}
+.wz_zt .wz_xt .wz_xt_left .two {
+  text-align: right;
+  position: relative;
+  margin-top: 205px;
+  clear: both;
+  padding-right: 10px;
+  width: 100%;
+}
+.wz_zt .wz_xt .wz_xt_left .three {
+  text-align: right;
+  position: relative;
+  margin-top: 205px;
+  clear: both;
+  padding-right: 10px;
+  width: 100%;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian {
+  float: right;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian i.first {
+  background: url("../images/f2.png") no-repeat -160px 26px;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian i.second {
+  background: url("../images/f4.png") no-repeat -167px 26px;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian i.third {
+  background: url("../images/f6.png") no-repeat -167px 29px;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian i.fourth {
+  background: url("../images/f3.png") no-repeat 30px 26px;
+}
+.wz_zt .wz_xt .wz_xt_left p {
+  text-align: right;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian:after {
+  border-left: 10px solid #ecf0f2;
+  position: absolute;
+  right: -20px;
+  top: 55px;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian:before {
+  position: absolute;
+  right: -47px;
+  top: 58px;
+  width: 17px;
+}
+.wz_zt .wz_xt .wz_xt_left .dw:hover .tupian:after {
+  border-left-color: #3597D3 ;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian:hover i.first {
+  background-position: 17px 26px;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian:hover i.second {
+  background-position: 31px 26px;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian:hover i.third {
+  background-position: 32px 29px;
+}
+.wz_zt .wz_xt .wz_xt_left .tupian:hover i.fourth {
+  background-position: -187px 26px;
+}
+.wz_zt .wz_xt .wz_xt_right {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 50%;
+}
+.wz_zt .wz_xt .wz_xt_right .one {
+  text-align: left;
+  padding-left: 14px;
+  position: relative;
+  clear: both;
+  margin-bottom: 80px;
+  margin-top: 70px;
+  display: inline-block;
+  width: 100%;
+}
+.wz_zt .wz_xt .wz_xt_right .two {
+  text-align: left;
+  padding-left: 14px;
+  position: relative;
+  clear: both;
+  margin-bottom: 80px;
+  margin-top: 70px;
+  display: inline-block;
+  width: 100%;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian {
+  float: left;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian i.first {
+  background: url("../images/f1.png") no-repeat 27px 27px;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian i.second {
+  background: url("../images/f3.png") no-repeat 30px 26px;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian i.third {
+  background: url("../images/f5.png") no-repeat 37px 29px;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian i.fourth {
+  background: url("../images/f7.png") no-repeat 32px 26px;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian:after {
+  border-right: 10px solid #ecf0f2;
+  position: absolute;
+  left: -20px;
+  top: 55px;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian:before {
+  position: absolute;
+  left: -55px;
+  top: 58px;
+  width: 17px;
+}
+.wz_zt .wz_xt .wz_xt_right .dw:hover .tupian:after {
+  border-right-color: #3597D3 ;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian:hover i.first {
+  background-position: -191px 27px;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian:hover i.second {
+  background-position: -187px 26px;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian:hover i.third {
+  background-position: -180px 29px;
+}
+.wz_zt .wz_xt .wz_xt_right .tupian:hover i.fourth {
+  background-position: -188px 26px;
+}
+.wz_zt .wz_xt .wz_xt_right .text {
+  padding-left: 170px;
+}

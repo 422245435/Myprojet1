@@ -1,0 +1,295 @@
+b,strong{
+    font-weight: bold;
+    font-size: 14px;
+}
+#allmap{
+    width: 100%;
+    height: 353px;
+    margin: 20px 0;
+}
+.pano_close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    background-color: rgba(37,37,37,.9);
+    background-image: url("../images/close.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+}
+.pano_pc_indoor_exit{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    width: 89px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    color: #ebedf0;
+    border-radius: 3px;
+    background-color: #252525;
+    background-color: rgba(37,37,37,.9);
+    background-image: url("../images/indoor_exit.png");
+    background-repeat: no-repeat;
+    background-position: 15px 12px;
+}
+.BMap_zoomer{
+    background-image: url("../images/mapctrls1d3.gif");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-size: 1px;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+}
+.BMap_stdMpPan{
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    background: url("../images/mapctrls2d0.png") no-repeat;
+}
+
+.BMap_stdMpZoom .BMap_button{
+    width: 22px;
+    height: 21px;
+    left: 12px;
+    overflow: hidden;
+    background-image: url("../images/mapctrls2d0.png");
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.BMap_stdMpSliderBgTop{
+    left: 18px;
+    width: 10px;
+    overflow: hidden;
+    background: url("../images/mapctrls2d0.png") no-repeat -23px -226px;
+}
+.BMap_stdMpSliderBgBot{
+    left: 19px;
+    height: 8px;
+    width: 10px;
+    top: 124px;
+    overflow: hidden;
+    background: url("../images/mapctrls2d0.png") no-repeat -33px bottom;
+}
+.BMap_stdMpSliderMask {
+    height: 100%;
+    width: 24px;
+    left: 10px;
+    cursor: pointer;
+}
+.BMap_stdMpSliderBar {
+    height: 11px;
+    width: 19px;
+    left: 13px;
+    top: 80px;
+    overflow: hidden;
+    background: url("../images/mapctrls2d0.png") no-repeat 0 -309px;
+}
+
+.BMap_stdMpCtrl div {
+    position: absolute;
+}
+
+.BMap_stdMpZoomIn {
+    background-position: 0 -221px;
+}
+.BMap_stdMpSlider {
+    width: 37px;
+    top: 18px;
+}
+
+
+.BMap_stdMpPan .BMap_button {
+    height: 15px;
+    width: 15px;
+}
+
+.BMap_stdMpZoomOut {
+    background-position: 0 -265px;
+}
+.BMap_panN {
+    left: 14px;
+    top: 0;
+}
+
+.BMap_panN, .BMap_panW, .BMap_panE, .BMap_panS {
+    overflow: hidden;
+}
+.BMap_panW {
+    left: 1px;
+    top: 12px;
+}
+.BMap_panE {
+    left: 27px;
+    top: 12px;
+}
+.BMap_panS {
+    left: 14px;
+    top: 25px;
+}
+.BMap_button {
+    cursor: pointer;
+}
+
+
+
+.BMap_stdMpZoom {
+    top: 45px;
+    overflow: hidden;
+}
+
+.BMap_zlSt {
+    background-position: 0 -380px;
+    top: 21px;
+}
+
+.BMap_zlSt, .BMap_zlCity, .BMap_zlProv, .BMap_zlCountry {
+    position: absolute;
+    left: 34px;
+    height: 21px;
+    width: 28px;
+    background-image: url("../images/mapctrls2d0.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    cursor: pointer;
+}
+.BMap_zlCity {
+    background-position: 0 -401px;
+    top: 52px;
+}
+.BMap_zlProv {
+    background-position: 0 -422px;
+    top: 76px;
+}
+.BMap_zlCountry {
+    background-position: 0 -443px;
+    top: 100px;
+}
+.BMap_stdMpPan {
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    background: url("../images/mapctrls2d0.png") no-repeat;
+}
+.BMap_panN {
+    left: 14px;
+    top: 0;
+}
+.BMap_panW {
+    left: 1px;
+    top: 12px;
+}
+.BMap_panE {
+    left: 27px;
+    top: 12px;
+}
+.BMap_panS {
+    left: 14px;
+    top: 25px;
+}
+.BMap_stdMpZoom {
+    top: 45px;
+    overflow: hidden;
+}
+
+.BMap_stdMpZoom .BMap_button {
+    width: 22px;
+    height: 21px;
+    left: 12px;
+    overflow: hidden;
+    background-image: url("../images/mapctrls2d0.png");
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+.BMap_stdMpZoomOut {
+    background-position: 0 -265px;
+}
+.BMap_stdMpZoomIn {
+    background-position: 0 -221px;
+}
+.BMap_stdMpZoomOut {
+    background-position: 0 -265px;
+}
+.BMap_stdMpSlider {
+    width: 37px;
+    top: 18px;
+}
+.BMap_stdMpSliderBgTop {
+    left: 18px;
+    width: 10px;
+    overflow: hidden;
+    background: url("../images/mapctrls2d0.png") no-repeat -23px -226px;
+}
+.BMap_stdMpSliderBgBot {
+    left: 19px;
+    height: 8px;
+    width: 10px;
+    top: 124px;
+    overflow: hidden;
+    background: url("../images/mapctrls2d0.png") no-repeat -33px bottom;
+}
+.BMap_stdMpSliderMask {
+    height: 100%;
+    width: 24px;
+    left: 10px;
+    cursor: pointer;
+}
+.BMap_stdMpSliderBar {
+    height: 11px;
+    width: 19px;
+    left: 13px;
+    top: 80px;
+    overflow: hidden;
+    background: url("../images/mapctrls2d0.png") no-repeat 0 -309px;
+}
+.BMap_zlHolder {
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.BMap_zlSt, .BMap_zlCity, .BMap_zlProv, .BMap_zlCountry {
+    position: absolute;
+    left: 34px;
+    height: 21px;
+    width: 28px;
+    background-image: url("../images/mapctrls2d0.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    cursor: pointer;
+}
+.BMap_zlSt {
+    background-position: 0 -380px;
+    top: 21px;
+}
+.BMap_zlCity {
+    background-position: 0 -401px;
+    top: 52px;
+}
+.BMap_zlProv {
+    background-position: 0 -422px;
+    top: 76px;
+}
+.BMap_zlCountry {
+    background-position: 0 -443px;
+    top: 100px;
+}
+.BMap_pop .BMap_top {
+    border-top: 1px solid #ababab;
+    background-color: #fff;
+}
+.BMap_pop .BMap_center {
+    border-left: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+    background-color: #fff;
+}
+.BMap_pop .BMap_bottom {
+    border-bottom: 1px solid #ababab;
+    background-color: #fff;
+}
